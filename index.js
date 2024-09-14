@@ -13,7 +13,6 @@ app.get('/',(req,res)=>{
     res.send("hello")
 })
 
-
 app.use('/user',require('./routes/users/users.js'))
 
 
